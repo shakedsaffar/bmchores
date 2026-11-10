@@ -1,0 +1,21 @@
+{
+  "name": "BMChores — L'organisation de la famille",
+  "short_name": "BMChores",
+  "description": "Tâches, courses, ménage, repas et agenda pour toute la famille.",
+  "lang": "fr",
+  "start_url": "./index.html#/accueil",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFF8F1",
+  "theme_color": "#FF7A8A",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Courses", "url": "./index.html#/courses" },
+    { "name": "Agenda", "url": "./index.html#/agenda" }
+  ]
+}
